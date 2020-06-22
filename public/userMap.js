@@ -28,7 +28,7 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
     tileSize: 512,
     zoomOffset: -1,
 //#######please fill in your accessToken########################################
-    accessToken: 'pk.eyJ1IjoibWE5ZGFsZW44IiwiYSI6ImNrYTZ4ZGdqNDBibWUyeHBuN3JmN2lrdDcifQ.SgZHAThfZLyx2Avk3th2Lg'
+    accessToken: 'ACCESS TOKEN HERE'
      }).addTo(map);
 
 // creating a Toolbar on the Mapboxmap only option to set a marker
