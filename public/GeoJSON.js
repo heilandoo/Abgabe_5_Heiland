@@ -1,9 +1,9 @@
 
 /**
-*@author Magdalena Fischer
-*m_fisc39@wwu.de
-*matr.Nr.: 460 858
-*25.05.2020
+*@author Ole Heiland
+*oleheiland@uni-muenster.de
+*Matrikelnummer: 462551
+*14/06/2020
 */
 
 //****various Linter configs****
@@ -12,6 +12,7 @@
 // jshint node: true
 // jshint -W097
 
+//######Please add your own accessToken########
 //________________________________________________________________________________________________________________________________
 //###############################################################XMLHttpRequests##################################################
 
@@ -51,7 +52,10 @@ function statechangecallback() {
     console.log(pointCollection);
 
     if (document.getElementById('mapid')){
-    mappingBusstops();}
+    heatmap();
+    mappingBusstops();
+    addLayerControl ();
+  }
   }
 }
 
