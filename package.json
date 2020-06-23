@@ -1,19 +1,28 @@
 {
-  "name": "aufgabe_5_heiland",
+  "name": "abgabe_5_heiland",
   "version": "1.0.0",
   "description": "",
-  "main": "node start.js",
+  "main": "mainIndex.html",
+  "scripts": {
+    "start": "node start.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heilandoo/abgabe_5_heiland.git"
+  },
+  "author": "Ole Heiland",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heiland/abgabe_5_heiland/issues"
+  },
+  "homepage": "https://github.com/heiland/abgabe_5_heiland#readme",
   "dependencies": {
     "body": "^5.1.0",
+    "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "jquery": "^3.5.1",
     "mongodb": "^3.5.8",
     "parser": "^0.1.4"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC"
+  }
 }
